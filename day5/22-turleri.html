@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT TÜRLERİ</title>
+</head>
+<body>
+    <h1>INPUT TÜRLERİ</h1>
+    <form>
+        <label for="file">TIKLA</label>
+        <input id="file" type="file" style="display: none">
+        <br>
+        <br>
+        <input type="color" name="colour">
+        <br>
+        <br>
+        <input type="range" step="20">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="time">
+        <br>
+        <br>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <input type="month">
+        <br>
+        <br>
+        <input type="week">
+        <br>
+        <br>
+        <select name="Şehirler">
+            <option value="" disabled selected>Bir şehir seçiniz</option>
+            <option value="01">Adana</option>
+            <option value="02">Adıyaman</option>
+            <option value="06">Ankara</option>
+            <option value="34">İstanbul</option>
+            <option value="07">Antalya</option>
+        </select>
+        <br>
+        <br>
+        <select name="Şehirler" multiple size="2">
+            <option value="" disabled selected>Bir şehir seçiniz</option>
+            <option value="01">Adana</option>
+            <option value="02">Adıyaman</option>
+            <option value="06">Ankara</option>
+            <option value="34">İstanbul</option>
+            <option value="07">Antalya</option>
+        </select>
+        <br>
+        <br>
+        <textarea rows="7" cols="50"></textarea>
+        <br>
+        <br>
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" minlength="5" min="5"
+        maxlength="10">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="10" max="20" required>
+        <br>
+        <br>
+
+        <button>GÖNDER</button>
+
+
+
+
+
+    </form>
+</body>
+</html>
